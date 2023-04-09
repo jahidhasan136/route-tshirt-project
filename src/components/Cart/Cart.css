@@ -1,0 +1,20 @@
+.cart-container{
+    border: 1px solid lightslategrey;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cart-container img{
+    height: 300px;
+}
+.cart-container button{
+    border: 1px solid lightsteelblue;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+.cart-container button:hover{
+    cursor: pointer;
+    background-color: lightslategray;
+    color: white;
+}
+

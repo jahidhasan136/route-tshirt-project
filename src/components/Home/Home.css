@@ -1,0 +1,17 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 100px;
+}
+.tshirt-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .tshirt-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
